@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1586521992 source:d:\codeblock\lab 1 gaychuk\main.cpp
+1586523178 source:d:\codeblock\lab 1 gaychuk\main.cpp
 	<iostream>
 	"point.h"
 
-1586512374 d:\codeblock\lab 1 gaychuk\point.h
+1586522856 d:\codeblock\lab 1 gaychuk\point.h
 	<iostream>
 	<windows.h>
 	<cstdlib>
