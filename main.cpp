@@ -12,7 +12,6 @@ int main()
     cin >> n;
     Point p(10, 10);
     Point p1;
-    Point p4(5, 5);
     cout << "p: ";
     p.print();
     cout << "p1: ";
