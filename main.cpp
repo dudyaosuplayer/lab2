@@ -6,6 +6,8 @@ int main()
 {
     int n;
     int a = 10;
+    a += 1;
+    cout << a;
     cout << "Enter integer value n:";
     cin >> n;
     Point p(10, 10);
