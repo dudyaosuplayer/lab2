@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1586512544 source:d:\codeblock\lab 1 gaychuk\main.cpp
+1586521992 source:d:\codeblock\lab 1 gaychuk\main.cpp
 	<iostream>
 	"point.h"
 
@@ -9,7 +9,7 @@
 	<cstdlib>
 	<conio.h>
 
-1586512343 source:d:\codeblock\lab 1 gaychuk\point.cpp
+1586521949 source:d:\codeblock\lab 1 gaychuk\point.cpp
 	"point.h"
 	<iostream>
 

@@ -12,6 +12,7 @@ int main()
     cin >> n;
     Point p(10, 10);
     Point p1;
+    Point p4(5, 5);
     cout << "p: ";
     p.print();
     cout << "p1: ";
@@ -19,7 +20,7 @@ int main()
     p1.sety(11);
     p1.print();
     Point p2 = p + p1;
-    cout << " (+) " << "p2: " << p2<< "\n";
+    cout << " (+) " << "p2: " << p2 << "\n";
     Point p3 = p - p1;
     cout << " (-) " << "p3: " << p3 << "\n";
     p += n;
