@@ -7,7 +7,7 @@ int main()
     int n;
     int a = 10;
     cout << "Enter integer value n:";
-   /* cin >> n;*/
+    cin >> n;
     Point p(10, 10);
     Point p1;
     cout << "p: ";
@@ -20,13 +20,13 @@ int main()
     cout << " (+) " << "p2: " << p2<< "\n";
     Point p3 = p - p1;
     cout << " (-) " << "p3: " << p3 << "\n";
-    p += p2;
+    p += n;
     cout << " (+=)" << "p: " << p << "\n";
-    p -= p1;
+    p -= n;
     cout << " (-=)" << "p: " << p << "\n";
-    p *= p3;
+    p *= n;
     cout << " (*=)" << "p: " << p << "\n";
-    p /= p1;
+    p /= n;
     cout << " (/=)" << "p: " << p << "\n";
     if((p > p1)== true)
         cout << " (<>) " << "p > p1";

@@ -98,28 +98,28 @@ Point Point :: operator+ (const Point &p)
     this-> y = this -> y - p.y;
   return *this;
 }
-Point &Point :: operator+= (const Point &p)
+Point &Point :: operator+= (const int n)
 {
-    this-> x = this -> x + p.x;
-    this-> y = this -> y + p.y;
+    this-> x = this -> x + n;
+    this-> y = this -> y + n;
     return *this;
 }
-Point &Point :: operator-= (const Point &p)
+Point &Point :: operator-= (const int n)
 {
-    this-> x = this -> x - p.x;
-    this-> y = this -> y - p.y;
+    this-> x = this -> x - n;
+    this-> y = this -> y - n;
     return *this;
 }
-Point &Point :: operator*= (const Point &p)
+Point &Point :: operator*= (const int n)
 {
-    this-> x = this -> x * p.x;
-    this-> y = this -> y * p.y;
+    this-> x = this -> x * n;
+    this-> y = this -> y * n;
     return *this;
 }
-Point &Point :: operator/= (const Point &p)
+Point &Point :: operator/= (const int n)
 {
-    this-> x = this -> x / p.x;
-    this-> y = this -> y / p.y;
+    this-> x = this -> x / n;
+    this-> y = this -> y / n;
     return *this;
 }
 
