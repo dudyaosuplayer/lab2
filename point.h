@@ -8,7 +8,7 @@ using namespace std;
 
 class Point
 {
-int x, y, n;
+int x, y;
 int a = 10;
 public:
 
